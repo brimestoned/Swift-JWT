@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/IBM-Swift/Swift-JWT.git", :tag => s.version }
   s.source_files  = "Sources/**/*.swift"
   s.dependency 'BlueRSA', '~> 1.0'
-  s.dependency 'LoggerAPI', :git => 'https://github.com/brimestoned/LoggerAPI.git'  
   s.dependency 'KituraContracts', '~> 1.1'
   s.dependency 'BlueCryptor', '~> 1.0'
 end
